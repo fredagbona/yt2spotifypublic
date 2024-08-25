@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    overflow-x: hidden; /* Cache le défilement horizontal */
+    overflow-y: hidden; /* Cache le défilement vertical, à utiliser avec prudence */
+}
+body, html {
+    min-height: 100vh; /* Assure que la hauteur minimale est celle de la fenêtre */
+}
+
+h1{
+    font-size: 4rem !important;
+}
+/* Taille de police pour les écrans de petite taille */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px !important; /* Ajustez la taille selon vos besoins */
+    }
+}
